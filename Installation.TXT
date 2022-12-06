@@ -1,0 +1,35 @@
+Node SMM Panel Script - With Child Panel , Refill and affiliate
+
+-----------------------------------------------------
+
+ADMIN LOGIN
+
+USERNAME : admin@admin.com
+
+PASSWORD : admin@2020
+
+
+-------------------------INSTALLATION-------------------------------
+
+
+upload Database - Node SMM Panel Script .sql into your database
+
+upload & extract Files - Node SMM Panel Script .zip into public_hml.
+
+then open public_html/app/config.php & Edit your database configuration
+
+--------------------------------------------------------------------
+
+Cronjob for Node SMM Panel Script  :
+
+* * * * * wget --spider -O - http://yourwebsite.com/cron/order >/dev/null 2>&1
+
+* * * * * wget --spider -O - http://yourwebsite.com/cron/status >/dev/null 2>&1
+
+* * * * * wget --spider -O - http://yourwebsite.com/cron/status_subscriptions >/dev/null 2>&1
+
+---------------------------------------------------------------------------
+
+For Notification & Service Update slider :
+
+use : https://www.getbeamer.com/ and paste jss link in settings
